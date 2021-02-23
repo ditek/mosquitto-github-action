@@ -1,4 +1,4 @@
-FROM docker:stable
+FROM eclipse-mosquitto:2
 
 COPY entrypoint.sh /entrypoint.sh
 
